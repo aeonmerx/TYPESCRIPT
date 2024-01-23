@@ -66,3 +66,9 @@ TypeScript (TS): TS tiene un sistema de módulos más avanzado y permite una ges
 import { modulo } from "./miModulo";
 
 ```
+
+En TypeScript, puedes crear un array que contenga varios tipos utilizando la unión de tipos. Puedes definir un array que acepte valores de diferentes tipos mediante el uso de la notación de unión (|). Aquí tienes un ejemplo:
+```typescript
+// Array que puede contener números, cadenas o booleanos
+let variosTipos: (number | string | boolean)[] = [1, "dos", true, 4, "cinco", false];
+```
